@@ -22,34 +22,16 @@ namespace ChangeThatTrack
             get;
             set;
         }
+       
 
-        
-        public static string GetLocalIP()
-        {
-            NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
-            foreach (NetworkInterface adapter in nics)
-            {
-                foreach (var x in adapter.GetIPProperties().UnicastAddresses)
-                {
-                    if (x.Address.AddressFamily == AddressFamily.InterNetwork && x.IsDnsEligible)
-                    {
-                        Console.WriteLine(" IPAddress ........ : {0:x}", x.Address.ToString());
-                    }
-                }
-            }
-            var a = Dns.GetHostAddresses(Dns.GetHostName());
-            return a[6].ToString();
-        }
-
-        public ConnectionHandler()
+        public ConnectionHandler(string ipAddress)
         {
             tcpclnt = new TcpClient();
             try
             {
 
                 Console.WriteLine("Connecting.....");
-                Console.WriteLine(GetLocalIP());
-                tcpclnt.Connect("192.168.1.200", 8001);
+                tcpclnt.Connect(ipAddress, 8001);
                 // use the ipaddress as in the server program
 
                 Console.WriteLine("Connected");

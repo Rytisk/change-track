@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace ChangeThatTrack
 {
-    [Activity(Label = "ChangeThatTrack", MainLauncher = true, Icon = "@drawable/icon", Theme = "@android:style/Theme.Holo.Light.NoActionBar")]
+    [Activity(Label = "ChangeThatTrack", MainLauncher = false, Icon = "@drawable/icon", Theme = "@android:style/Theme.Holo.Light.NoActionBar")]
     public class MainActivity : Activity
     {
         private ImageButton btnPlay;
@@ -13,6 +13,8 @@ namespace ChangeThatTrack
         private ImageButton btnPrev;
 
         private ConnectionHandler conHandler;
+
+        private string ipAddress;
 
         private const int VK_MEDIA_NEXT_TRACK = 0xB0;
         private const int VK_MEDIA_PREV_TRACK = 0xB1;
@@ -31,7 +33,9 @@ namespace ChangeThatTrack
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
-            conHandler = new ConnectionHandler();
+            ipAddress = Intent.GetStringExtra("MyData") ?? "Data not available";
+
+            conHandler = new ConnectionHandler(ipAddress);
             btnPlay = FindViewById<ImageButton>(Resource.Id.btnPlay);
         //    btnStop = FindViewById<Button>(Resource.Id.btnStop);
             btnNext = FindViewById<ImageButton>(Resource.Id.btnNext);

@@ -21,13 +21,16 @@ public final class R {
         public static final int prev=0x7f020007;
     }
     public static final class id {
-        public static final int btnNext=0x7f050003;
-        public static final int btnPlay=0x7f050002;
-        public static final int btnPrev=0x7f050001;
-        public static final int imageView1=0x7f050000;
+        public static final int btnEnterIP=0x7f050001;
+        public static final int btnNext=0x7f050005;
+        public static final int btnPlay=0x7f050004;
+        public static final int btnPrev=0x7f050003;
+        public static final int editTxtIP=0x7f050000;
+        public static final int imageView1=0x7f050002;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int enterip=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;
