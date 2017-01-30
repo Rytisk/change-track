@@ -26,14 +26,18 @@ namespace ChangeTrack_server
         private static int[] availableCodes = new int[] { 176, 177, 178, 179 };
         static string songInfo = "";
 
+        public static string GetLocalIP()
+        {
+            return Dns.GetHostAddresses(Dns.GetHostName())[6].ToString();
+        }
+
         public ServerHandler()
         {
-
         }
 
         public void Start()
         {
-            IPAddress ipAd = IPAddress.Parse("172.16.12.210");
+            IPAddress ipAd = IPAddress.Parse(GetLocalIP());
 
             myList = new TcpListener(ipAd, 8001);
 

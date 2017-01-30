@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Sockets;
 using System.IO;
+using System.Net;
+using System.Net.NetworkInformation;
 
 namespace ChangeThatTrack
 {
@@ -21,6 +23,24 @@ namespace ChangeThatTrack
             set;
         }
 
+        
+        public static string GetLocalIP()
+        {
+            NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
+            foreach (NetworkInterface adapter in nics)
+            {
+                foreach (var x in adapter.GetIPProperties().UnicastAddresses)
+                {
+                    if (x.Address.AddressFamily == AddressFamily.InterNetwork && x.IsDnsEligible)
+                    {
+                        Console.WriteLine(" IPAddress ........ : {0:x}", x.Address.ToString());
+                    }
+                }
+            }
+            var a = Dns.GetHostAddresses(Dns.GetHostName());
+            return a[6].ToString();
+        }
+
         public ConnectionHandler()
         {
             tcpclnt = new TcpClient();
@@ -28,8 +48,8 @@ namespace ChangeThatTrack
             {
 
                 Console.WriteLine("Connecting.....");
-
-                tcpclnt.Connect("172.16.12.210", 8001);
+                Console.WriteLine(GetLocalIP());
+                tcpclnt.Connect("192.168.1.200", 8001);
                 // use the ipaddress as in the server program
 
                 Console.WriteLine("Connected");

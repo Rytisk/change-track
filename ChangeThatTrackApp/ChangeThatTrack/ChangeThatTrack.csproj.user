@@ -3,5 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <AndroidDesignerPreferredTheme>Theme.Micro.Light</AndroidDesignerPreferredTheme>
+    <SelectedDevice>andri</SelectedDevice>
   </PropertyGroup>
 </Project>
