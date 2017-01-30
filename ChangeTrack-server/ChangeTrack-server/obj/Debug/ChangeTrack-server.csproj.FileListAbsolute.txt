@@ -4,3 +4,9 @@ E:\Projects\ChangeTrack-server\ChangeTrack-server\bin\Debug\ChangeTrack-server.p
 E:\Projects\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.exe
 E:\Projects\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.pdb
 E:\Projects\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.csprojResolveAssemblyReference.cache
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\ChangeTrack-server.exe.config
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.exe
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.pdb
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\ChangeTrack-server.exe
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\ChangeTrack-server.pdb
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.csprojResolveAssemblyReference.cache
