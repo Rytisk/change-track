@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -28,7 +30,35 @@ namespace ChangeTrack_server
 
         public static string GetLocalIP()
         {
-            return Dns.GetHostAddresses(Dns.GetHostName())[6].ToString();
+            string ip = "127.0.0.1";
+            try
+            {
+                long max = 0;
+                NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
+                foreach (NetworkInterface adapter in nics)
+                {
+                    foreach (var x in adapter.GetIPProperties().UnicastAddresses)
+                    {
+                        if (x.Address.AddressFamily == AddressFamily.InterNetwork && x.IsDnsEligible)
+                        {
+                            if (adapter.OperationalStatus == OperationalStatus.Up)
+                            {
+                                if (adapter.GetIPStatistics().BytesReceived > max)
+                                {
+                                    max = adapter.GetIPStatistics().BytesReceived;
+                                    ip = x.Address.ToString();
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+            }
+            return ip;
         }
 
         public ServerHandler()
