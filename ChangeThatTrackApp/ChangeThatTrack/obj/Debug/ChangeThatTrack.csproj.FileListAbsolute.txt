@@ -88,4 +88,6 @@ E:\Projects\change-track\ChangeThatTrack\ChangeThatTrack\obj\Debug\android\asset
 E:\Projects\change-track\ChangeThatTrack\ChangeThatTrack\obj\Debug\android\assets\System.Xml.dll.mdb
 E:\Projects\change-track\ChangeThatTrack\ChangeThatTrack\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 E:\Projects\change-track\ChangeThatTrack\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
-E:\Projects\change-track\ChangeThatTrack\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll.mdb
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.csprojResolveAssemblyReference.cache
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.pdb
