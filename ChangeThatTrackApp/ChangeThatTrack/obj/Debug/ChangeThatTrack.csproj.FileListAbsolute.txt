@@ -132,7 +132,6 @@ E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\as
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\assets\System.Xml.dll.mdb
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.pdb
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.ChangeThatTrack.apk
@@ -179,4 +178,6 @@ C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
-C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll.mdb
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\layout\enterip.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll.mdb
