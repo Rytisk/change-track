@@ -179,5 +179,11 @@ C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Acer\Desktop\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\layout\enterip.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\nextpressed.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\pausepressed.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\playpressed.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\prevpressed.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\pausebutton.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\prevbutton.xml
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll.mdb
