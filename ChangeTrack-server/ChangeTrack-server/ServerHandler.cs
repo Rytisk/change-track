@@ -25,31 +25,28 @@ namespace ChangeTrack_server
         private static Socket s;
         private static TcpListener myList;
 
-        private static int[] availableCodes = new int[] { 176, 177, 178, 179 };
-        static string songInfo = "";
+        private static int[] availableCodes = new int[] { 174,     //Volume down
+                                                          175,     //Volume up
+                                                          176,     //Next track
+                                                          177,     //Previous track
+                                                          178,     //Stop track
+                                                          179 };   //Play/pause track
 
         public static string GetLocalIP()
         {
             string ip = "127.0.0.1";
+            long max = 0;
             try
-            {
-                long max = 0;
+            {   
                 NetworkInterface[] nics = NetworkInterface.GetAllNetworkInterfaces();
                 foreach (NetworkInterface adapter in nics)
                 {
                     foreach (var x in adapter.GetIPProperties().UnicastAddresses)
                     {
-                        if (x.Address.AddressFamily == AddressFamily.InterNetwork && x.IsDnsEligible)
+                        if (x.Address.AddressFamily == AddressFamily.InterNetwork && x.IsDnsEligible && adapter.OperationalStatus == OperationalStatus.Up && adapter.GetIPStatistics().BytesReceived > max)
                         {
-                            if (adapter.OperationalStatus == OperationalStatus.Up)
-                            {
-                                if (adapter.GetIPStatistics().BytesReceived > max)
-                                {
-                                    max = adapter.GetIPStatistics().BytesReceived;
-                                    ip = x.Address.ToString();
-                                }
-                            }
-
+                            max = adapter.GetIPStatistics().BytesReceived;
+                            ip = x.Address.ToString();
                         }
                     }
                 }
@@ -61,24 +58,15 @@ namespace ChangeTrack_server
             return ip;
         }
 
-        public ServerHandler()
-        {
-        }
-
         public void Start()
         {
             IPAddress ipAd = IPAddress.Parse(GetLocalIP());
-
             myList = new TcpListener(ipAd, 8001);
-
-
             myList.Start();
 
             while (true)
             {
-                Thread t = new Thread(new ThreadStart(RunTheServer));
-                t.Start();
-                t.Join();
+                RunTheServer();
                 OnProcessExit();
             }
         }
@@ -86,65 +74,76 @@ namespace ChangeTrack_server
 
         public void RunTheServer()
         {
-
             try
             {
-
                 Console.WriteLine("The server is running at port 8001...");
                 Console.WriteLine("The local End point is  :" +
                                   myList.LocalEndpoint);
                 Console.WriteLine("Waiting for a connection.....");
                 s = myList.AcceptSocket();
-                while (s.Connected)
-                {
-
-                    Console.WriteLine("Connection accepted from " + s.RemoteEndPoint);
-
-                    byte[] b = new byte[100];
-                    int k = s.Receive(b);
-                    Console.WriteLine("Recieved...");
-                    int code = BitConverter.ToInt32(b, 0);
-                    Console.WriteLine(code);
-                    foreach (var num in availableCodes)
-                    {
-                        if (num == code)
-                        {
-                            keybd_event(Convert.ToByte(code), 0, KEYEVENTF_EXTENDEDKEY, 0);
-                            keybd_event(Convert.ToByte(code), 0, KEYEVENTF_KEYUP, 0);
-                            break;
-                        }
-                    }
-
-
-                    ASCIIEncoding asen = new ASCIIEncoding();
-                    s.Send(asen.GetBytes("******Works fine.....*******"));
-                    Console.WriteLine("\nSent Acknowledgement");
-                }
-
+                WorkOnConnection();
             }
             catch (Exception)
             {
                 Console.WriteLine("Connection terminated.");
             }
-
         }
 
-        public string GetSongInfo()
+        private void WorkOnConnection()
         {
-            return Process.GetProcessById(7572).MainWindowTitle;
+            while (s.Connected)
+            {
+
+                Console.WriteLine("Connection accepted from " + s.RemoteEndPoint);
+
+                byte[] b = new byte[100];
+                int k = s.Receive(b);
+                int code = BitConverter.ToInt32(b, 0);
+                Console.WriteLine("Recieved... Code: " + code);
+                if (IsAvailableCommand(code))
+                    CompleteCommand(code);
+                else
+                    Console.WriteLine("Command not available");
+                SendAcknowledgement("Works fine");
+                
+            }
         }
 
-        public void OnProcessExit()
+        private void SendAcknowledgement(string message)
         {
-            s.Close();
+            ASCIIEncoding asen = new ASCIIEncoding();
+            s.Send(asen.GetBytes(message));
+            Console.WriteLine("\nSent Acknowledgement");
+        }
+
+        private bool IsAvailableCommand(int code)
+        {
+            foreach (var num in availableCodes)
+            {
+                if (num == code)
+                    return true;
+            }
+            return false;
+        }
+
+        private void CompleteCommand(int code)
+        {
+            keybd_event(Convert.ToByte(code), 0, KEYEVENTF_EXTENDEDKEY, 0);
+            keybd_event(Convert.ToByte(code), 0, KEYEVENTF_KEYUP, 0);
+            Console.WriteLine("Command completed");
+        }
+
+        private void OnProcessExit()
+        {
+            if (s.Connected)
+                s.Close();
         }
 
         public void OnProgramExit(object sender, EventArgs args)
         {
             try
             {
-                if (s.Connected)
-                    s.Close();
+                OnProcessExit();
                 myList.Stop();
             }
             catch(Exception)
