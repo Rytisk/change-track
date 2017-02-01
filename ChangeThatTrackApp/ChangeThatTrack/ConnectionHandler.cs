@@ -16,6 +16,13 @@ namespace ChangeThatTrack
     public class ConnectionHandler
     {
         TcpClient tcpclnt;
+
+
+        public string Answer
+        {
+            get;
+            set;
+        }
         
         public string SongInfo
         {
@@ -53,13 +60,9 @@ namespace ChangeThatTrack
 
             byte[] bb = new byte[100];
             int k = stm.Read(bb, 0, 100);
-
-            Console.WriteLine("**************************");
-            for (int i = 0; i < k; i++)
-                Console.Write(Convert.ToChar(bb[i]));
-            Console.WriteLine("");
-            Console.WriteLine("**************************");
+            Answer = System.Text.Encoding.ASCII.GetString(bb).TrimEnd(' ');
         }
+
 
         public void CloseConnection()
         {

@@ -25,12 +25,15 @@ public final class R {
         public static final int prev=0x7f02000b;
         public static final int prevbutton=0x7f02000c;
         public static final int prevpressed=0x7f02000d;
+        public static final int roundback=0x7f02000e;
+        public static final int roundbutton=0x7f02000f;
     }
     public static final class id {
+        public static final int barVolume=0x7f050003;
         public static final int btnEnterIP=0x7f050001;
-        public static final int btnNext=0x7f050005;
-        public static final int btnPlay=0x7f050004;
-        public static final int btnPrev=0x7f050003;
+        public static final int btnNext=0x7f050006;
+        public static final int btnPlay=0x7f050005;
+        public static final int btnPrev=0x7f050004;
         public static final int editTxtIP=0x7f050000;
         public static final int imageView1=0x7f050002;
     }

@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>2017-01-31 23:34:13</xs:documentation>
+    <xs:documentation>2017-02-01 18:13:19</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -773,7 +773,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -788,6 +787,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -1419,7 +1420,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -1434,6 +1434,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2104,7 +2106,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -2119,6 +2120,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2479,7 +2482,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -2494,6 +2496,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -2805,7 +2809,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -2820,6 +2823,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3441,7 +3446,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -3456,6 +3460,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3771,7 +3777,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -3786,6 +3791,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4117,7 +4124,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -4132,6 +4138,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4406,7 +4414,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -4421,6 +4428,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4672,7 +4681,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -4687,6 +4695,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5423,7 +5433,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -5438,6 +5447,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5777,7 +5788,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -5792,6 +5802,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6082,7 +6094,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -6097,6 +6108,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6533,7 +6546,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -6548,6 +6560,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -6859,7 +6873,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -6874,6 +6887,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7185,7 +7200,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -7200,6 +7214,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7551,7 +7567,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -7566,6 +7581,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -7877,7 +7894,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -7892,6 +7908,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8313,7 +8331,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -8328,6 +8345,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -8695,7 +8714,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -8710,6 +8728,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8985,7 +9005,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -9000,6 +9019,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -9433,7 +9454,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -9448,6 +9468,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9855,7 +9877,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -9870,6 +9891,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10395,7 +10418,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -10410,6 +10432,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10873,7 +10897,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -10888,6 +10911,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11321,7 +11346,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -11336,6 +11360,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -11945,7 +11971,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -11960,6 +11985,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12193,7 +12220,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -12208,6 +12234,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12441,7 +12469,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -12456,6 +12483,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12689,7 +12718,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -12704,6 +12732,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -12937,7 +12967,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -12952,6 +12981,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13185,7 +13216,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -13200,6 +13230,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13433,7 +13465,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -13448,6 +13479,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -13681,7 +13714,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -13696,6 +13728,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14123,7 +14157,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -14138,6 +14171,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14398,7 +14433,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -14413,6 +14447,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14646,7 +14682,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -14661,6 +14696,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -14894,7 +14931,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -14909,6 +14945,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15142,7 +15180,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -15157,6 +15194,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15430,7 +15469,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -15445,6 +15483,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -15678,7 +15718,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -15693,6 +15732,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -16004,7 +16045,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -16019,6 +16059,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16292,7 +16334,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -16307,6 +16348,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16540,7 +16583,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -16555,6 +16597,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -16879,7 +16923,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -16894,6 +16937,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17346,6 +17391,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -17426,7 +17472,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -17441,6 +17486,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -17674,7 +17721,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -17689,6 +17735,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18013,7 +18061,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -18028,6 +18075,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18371,7 +18420,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -18386,6 +18434,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -18714,7 +18764,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -18729,6 +18778,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19290,7 +19341,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -19305,6 +19355,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -19624,7 +19676,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -19639,6 +19690,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20032,7 +20085,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -20047,6 +20099,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20400,7 +20454,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -20415,6 +20468,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20664,7 +20719,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -20679,6 +20733,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -20912,6 +20968,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -20992,6 +21049,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21072,6 +21130,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21152,6 +21211,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21232,6 +21292,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21552,6 +21613,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21632,6 +21694,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21712,6 +21775,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -21832,6 +21896,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -22354,6 +22419,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -22434,6 +22500,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -22514,6 +22581,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -22594,6 +22662,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/barVolume" />
             <xs:enumeration value="@id/btnEnterIP" />
             <xs:enumeration value="@id/btnNext" />
             <xs:enumeration value="@id/btnPlay" />
@@ -22774,7 +22843,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -22789,6 +22857,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -23144,7 +23214,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -23159,6 +23228,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -24148,7 +24219,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -24163,6 +24233,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24408,7 +24480,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -24423,6 +24494,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24697,7 +24770,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -24712,6 +24784,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -24985,7 +25059,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -25000,6 +25073,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -25233,7 +25308,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -25248,6 +25322,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -25481,7 +25557,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -25496,6 +25571,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -25729,7 +25806,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -25744,6 +25820,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -25977,7 +26055,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -25992,6 +26069,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26698,7 +26777,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -26713,6 +26791,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -26963,7 +27043,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -26978,6 +27057,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -27289,7 +27370,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -27304,6 +27384,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -28008,7 +28090,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -28023,6 +28104,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -28374,7 +28457,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -28389,6 +28471,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -28803,7 +28887,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -28818,6 +28901,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29161,7 +29246,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -29176,6 +29260,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -29409,7 +29495,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -29424,6 +29509,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30201,7 +30288,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -30216,6 +30302,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30449,7 +30537,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -30464,6 +30551,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30697,7 +30786,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -30712,6 +30800,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -30945,7 +31035,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -30960,6 +31049,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -31373,7 +31464,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -31388,6 +31478,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -31621,7 +31713,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -31636,6 +31727,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -32037,7 +32130,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -32052,6 +32144,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -32285,7 +32379,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -32300,6 +32393,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -32611,7 +32706,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -32626,6 +32720,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -33302,7 +33398,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -33317,6 +33412,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -33843,7 +33940,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -33858,6 +33954,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -34227,7 +34325,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -34242,6 +34339,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -35426,7 +35525,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -35441,6 +35539,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -35715,7 +35815,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -35730,6 +35829,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36054,7 +36155,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -36069,6 +36169,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36382,7 +36484,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -36397,6 +36498,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36630,7 +36733,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -36645,6 +36747,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -36918,7 +37022,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -36933,6 +37036,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37166,7 +37271,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -37181,6 +37285,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37561,7 +37667,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -37576,6 +37681,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -37809,7 +37916,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -37824,6 +37930,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -38135,7 +38243,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -38150,6 +38257,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -38461,7 +38570,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -38476,6 +38584,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -38787,7 +38897,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -38802,6 +38911,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -39113,7 +39224,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -39128,6 +39238,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39387,7 +39499,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -39402,6 +39513,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39635,7 +39748,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -39650,6 +39762,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -39883,7 +39997,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -39898,6 +40011,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40131,7 +40246,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -40146,6 +40260,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40379,7 +40495,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -40394,6 +40509,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -40801,7 +40918,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -40816,6 +40932,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41049,7 +41167,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -41064,6 +41181,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -41297,7 +41416,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -41312,6 +41430,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -42482,7 +42602,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -42497,6 +42616,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43337,7 +43458,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -43352,6 +43472,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -43756,7 +43878,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -43771,6 +43892,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -44502,7 +44625,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -44517,6 +44639,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -44976,7 +45100,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -44991,6 +45114,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -45240,7 +45365,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -45255,6 +45379,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -45488,7 +45614,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -45503,6 +45628,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -45736,7 +45863,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -45751,6 +45877,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />
@@ -46062,7 +46190,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/gradient" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/main" />
             <xs:enumeration value="@drawable/next" />
@@ -46077,6 +46204,8 @@
             <xs:enumeration value="@drawable/prev" />
             <xs:enumeration value="@drawable/prevbutton" />
             <xs:enumeration value="@drawable/prevpressed" />
+            <xs:enumeration value="@drawable/roundback" />
+            <xs:enumeration value="@drawable/roundbutton" />
             <xs:enumeration value="@android:color/background_dark" />
             <xs:enumeration value="@android:color/background_light" />
             <xs:enumeration value="@android:color/black" />

@@ -10,3 +10,5 @@ E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeT
 E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\ChangeTrack-server.exe
 E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\ChangeTrack-server.pdb
 E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\obj\Debug\ChangeTrack-server.csprojResolveAssemblyReference.cache
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\AudioSwitcher.AudioApi.CoreAudio.dll
+E:\Projects\change-track\ChangeTrack-server\ChangeTrack-server\bin\Debug\AudioSwitcher.AudioApi.dll
