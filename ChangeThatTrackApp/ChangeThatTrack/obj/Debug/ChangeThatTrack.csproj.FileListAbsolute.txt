@@ -187,5 +187,11 @@ E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawab
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\prevbutton.xml
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\roundbutton.xml
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\roundback.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\volumeup.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\volumedown.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\downpressed.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\uppressed.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\down.png
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\up.png
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll.mdb

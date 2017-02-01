@@ -15,8 +15,10 @@ namespace ChangeThatTrack
         private ImageButton btnStop;
         private ImageButton btnNext;
         private ImageButton btnPrev;
+        private ImageButton btnVolumeUp;
+        private ImageButton btnVolumeDown;
 
-        private SeekBar barVolume;
+        private ProgressBar barVolume;
 
         private ConnectionHandler conHandler;
 
@@ -50,10 +52,15 @@ namespace ChangeThatTrack
         //    btnStop = FindViewById<Button>(Resource.Id.btnStop);
             btnNext = FindViewById<ImageButton>(Resource.Id.btnNext);
             btnPrev = FindViewById<ImageButton>(Resource.Id.btnPrev);
+            btnVolumeUp = FindViewById<ImageButton>(Resource.Id.btnVolumeUp);
+            btnVolumeDown = FindViewById<ImageButton>(Resource.Id.btnVolumeDown);
 
-            barVolume = FindViewById<SeekBar>(Resource.Id.barVolume);
+            barVolume = FindViewById<ProgressBar>(Resource.Id.barVolume);
             barVolume.Max = 100;
 
+
+            btnVolumeDown.Click += BtnVolumeDown_Click;
+            btnVolumeUp.Click += BtnVolumeUp_Click;
             btnPlayPause.Click += BtnPlay_Click;
             btnPlayPause.Click += ChangePlayPauseImage;
           //  btnStop.Click += BtnStop_Click;
@@ -61,6 +68,18 @@ namespace ChangeThatTrack
             btnPrev.Click += BtnPrev_Click;
             
 
+        }
+
+        private void BtnVolumeUp_Click(object sender, EventArgs e)
+        {
+            conHandler.Send(VK_VOLUME_UP);
+            barVolume.Progress = Convert.ToInt32(conHandler.Answer);
+        }
+
+        private void BtnVolumeDown_Click(object sender, EventArgs e)
+        {
+            conHandler.Send(VK_VOLUME_DOWN);
+            barVolume.Progress = Convert.ToInt32(conHandler.Answer);
         }
 
         private void BtnPrev_Click(object sender, System.EventArgs e)
@@ -96,24 +115,6 @@ namespace ChangeThatTrack
                 btnPlayPause.SetImageResource(Resource.Drawable.PlayButton);
                 currentPlayPauseTag = Resource.Drawable.PlayButton;
             }
-        }
-
-        public override bool OnKeyDown([GeneratedEnum] Android.Views.Keycode keyCode, KeyEvent e)
-        {
-            if (keyCode == Android.Views.Keycode.VolumeDown)
-            {
-                conHandler.Send(VK_VOLUME_DOWN);
-                barVolume.Progress = Convert.ToInt32(conHandler.Answer);
-                return true;
-            }
-
-            if (keyCode == Android.Views.Keycode.VolumeUp)
-            {
-                conHandler.Send(VK_VOLUME_UP);
-                barVolume.Progress = Convert.ToInt32(conHandler.Answer);
-                return true;
-            }
-            return base.OnKeyDown(keyCode, e);
         }
     }
 }
