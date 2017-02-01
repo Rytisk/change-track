@@ -15,15 +15,21 @@
         android:background="@android:color/transparent"
         android:id="@+id/imageView1" />
 
-  <SeekBar
+
+
+
+    <ProgressBar
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="?android:attr/actionBarSize"
         android:id="@+id/barVolume" />
+  
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="100dp"
+        android:id="@+id/tablerow"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
         android:gravity="center">
         <ImageButton
             android:layout_centerInParent="true"
@@ -55,4 +61,30 @@
             android:background="@drawable/roundback"
             android:src="@drawable/NextButton" />
     </TableRow>
+  <RelativeLayout
+    android:layout_below="@+id/tablerow"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+    <ImageButton
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:scaleType="fitCenter"
+      android:adjustViewBounds="true"
+      android:id="@+id/btnVolumeUp"
+      android:background="@drawable/roundback"
+      android:src="@drawable/VolumeUp" 
+      android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:layout_below="@id/btnVolumeUp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:id="@+id/btnVolumeDown"
+        android:background="@drawable/roundback"
+        android:src="@drawable/VolumeDown"
+        android:layout_alignParentRight="true"/>
+  </RelativeLayout>
 </RelativeLayout>
