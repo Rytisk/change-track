@@ -26,12 +26,19 @@ namespace ChangeTrack_server
         private static Socket s;
         private static TcpListener myList;
 
+        CoreAudioDevice defaultPlaybackDevice;
+
         private static int[] availableCodes = new int[] { 174,     //Volume down
                                                           175,     //Volume up
                                                           176,     //Next track
                                                           177,     //Previous track
                                                           178,     //Stop track
                                                           179 };   //Play/pause track
+
+        public ServerHandler()
+        {
+            defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
+        }
 
         public static string GetLocalIP()
         {
@@ -92,8 +99,12 @@ namespace ChangeTrack_server
 
         private string GetVolume()
         {
-            CoreAudioDevice defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
             return defaultPlaybackDevice.Volume.ToString();
+        }
+
+        private void SetVolume(int change)
+        {
+            defaultPlaybackDevice.Volume += change;    
         }
 
         private void WorkOnConnection()
@@ -108,7 +119,12 @@ namespace ChangeTrack_server
                 int code = BitConverter.ToInt32(b, 0);
                 Console.WriteLine("Recieved... Code: " + code);
                 if (IsAvailableCommand(code))
-                    CompleteCommand(code);
+                {
+                    if (code == 174 || code == 175)
+                        CompleteVolumeCommand(code);
+                    else
+                        CompleteCommand(code);
+                }
                 else
                     Console.WriteLine("Command not available");
                 if (code == 174 || code == 175)
@@ -117,6 +133,14 @@ namespace ChangeTrack_server
                     SendAcknowledgement("Works fine");
                 
             }
+        }
+
+        private void CompleteVolumeCommand(int code)
+        {
+            if (code == 174)
+                SetVolume(-10);
+            else if (code == 175)
+                SetVolume(10);
         }
 
         private void SendAcknowledgement(string message)
