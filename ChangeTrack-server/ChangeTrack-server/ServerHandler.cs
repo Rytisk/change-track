@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AudioSwitcher.AudioApi.CoreAudio;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -89,6 +90,12 @@ namespace ChangeTrack_server
             }
         }
 
+        private string GetVolume()
+        {
+            CoreAudioDevice defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
+            return defaultPlaybackDevice.Volume.ToString();
+        }
+
         private void WorkOnConnection()
         {
             while (s.Connected)
@@ -104,7 +111,10 @@ namespace ChangeTrack_server
                     CompleteCommand(code);
                 else
                     Console.WriteLine("Command not available");
-                SendAcknowledgement("Works fine");
+                if (code == 174 || code == 175)
+                    SendAcknowledgement(GetVolume());
+                else
+                    SendAcknowledgement("Works fine");
                 
             }
         }

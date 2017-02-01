@@ -105,17 +105,20 @@ namespace ChangeThatTrack
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050003
+			public const int barVolume = 2131034115;
+			
 			// aapt resource value: 0x7f050001
 			public const int btnEnterIP = 2131034113;
 			
+			// aapt resource value: 0x7f050006
+			public const int btnNext = 2131034118;
+			
 			// aapt resource value: 0x7f050005
-			public const int btnNext = 2131034117;
+			public const int btnPlay = 2131034117;
 			
 			// aapt resource value: 0x7f050004
-			public const int btnPlay = 2131034116;
-			
-			// aapt resource value: 0x7f050003
-			public const int btnPrev = 2131034115;
+			public const int btnPrev = 2131034116;
 			
 			// aapt resource value: 0x7f050000
 			public const int editTxtIP = 2131034112;

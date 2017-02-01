@@ -1,6 +1,10 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System;
+using Android.InputMethodServices;
+using Android.Runtime;
+using Android.Views;
 
 namespace ChangeThatTrack
 {
@@ -12,6 +16,8 @@ namespace ChangeThatTrack
         private ImageButton btnNext;
         private ImageButton btnPrev;
 
+        private SeekBar barVolume;
+
         private ConnectionHandler conHandler;
 
         private string ipAddress;
@@ -20,8 +26,10 @@ namespace ChangeThatTrack
         private const int VK_MEDIA_PREV_TRACK = 0xB1;
         private const int VK_MEDIA_STOP = 0xB2;
         private const int VK_MEDIA_PLAY_PAUSE = 0xB3;
+        private const int VK_VOLUME_DOWN = 0xAE;
+        private const int VK_VOLUME_UP = 0xAF;
 
-        private int currentPlayPauseTag;
+        private int currentPlayPauseTag = Resource.Drawable.PlayButton;
 
         protected override void OnDestroy()
         {
@@ -43,8 +51,8 @@ namespace ChangeThatTrack
             btnNext = FindViewById<ImageButton>(Resource.Id.btnNext);
             btnPrev = FindViewById<ImageButton>(Resource.Id.btnPrev);
 
-            currentPlayPauseTag = Resource.Drawable.PlayButton;    
-
+            barVolume = FindViewById<SeekBar>(Resource.Id.barVolume);
+            barVolume.Max = 100;
 
             btnPlayPause.Click += BtnPlay_Click;
             btnPlayPause.Click += ChangePlayPauseImage;
@@ -86,7 +94,26 @@ namespace ChangeThatTrack
             else
             {
                 btnPlayPause.SetImageResource(Resource.Drawable.PlayButton);
+                currentPlayPauseTag = Resource.Drawable.PlayButton;
             }
+        }
+
+        public override bool OnKeyDown([GeneratedEnum] Android.Views.Keycode keyCode, KeyEvent e)
+        {
+            if (keyCode == Android.Views.Keycode.VolumeDown)
+            {
+                conHandler.Send(VK_VOLUME_DOWN);
+                barVolume.Progress = Convert.ToInt32(conHandler.Answer);
+                return true;
+            }
+
+            if (keyCode == Android.Views.Keycode.VolumeUp)
+            {
+                conHandler.Send(VK_VOLUME_UP);
+                barVolume.Progress = Convert.ToInt32(conHandler.Answer);
+                return true;
+            }
+            return base.OnKeyDown(keyCode, e);
         }
     }
 }
