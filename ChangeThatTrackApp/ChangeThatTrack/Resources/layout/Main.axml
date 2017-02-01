@@ -24,20 +24,29 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="30dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
                 android:id="@+id/btnPrev"
-                android:background="@drawable/PrevButton" />
+                android:src="@drawable/PrevButton"
+                android:background="@drawable/roundback"/>
             <ImageButton
                 android:layout_width="110dp"
                 android:layout_height="110dp"
                 android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
                 android:id="@+id/btnPlay"
-                android:background="@drawable/PlayButton"/>
+                android:background="@drawable/roundback"
+                android:src="@drawable/PlayButton"/>
             <ImageButton
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="30dp"
                 android:id="@+id/btnNext"
-                android:background="@drawable/NextButton" />
+                android:background="@drawable/roundback" 
+                android:src="@drawable/NextButton"/>
         </TableRow>
 </RelativeLayout>

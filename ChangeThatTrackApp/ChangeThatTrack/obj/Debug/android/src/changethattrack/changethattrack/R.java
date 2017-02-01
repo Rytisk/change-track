@@ -25,6 +25,8 @@ public final class R {
         public static final int prev=0x7f02000b;
         public static final int prevbutton=0x7f02000c;
         public static final int prevpressed=0x7f02000d;
+        public static final int roundback=0x7f02000e;
+        public static final int roundbutton=0x7f02000f;
     }
     public static final class id {
         public static final int btnEnterIP=0x7f050001;

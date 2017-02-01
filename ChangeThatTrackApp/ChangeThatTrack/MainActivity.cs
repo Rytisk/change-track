@@ -80,12 +80,12 @@ namespace ChangeThatTrack
         {
             if(currentPlayPauseTag == Resource.Drawable.PlayButton)
             {
-                btnPlayPause.SetBackgroundResource(Resource.Drawable.PauseButton);
+                btnPlayPause.SetImageResource(Resource.Drawable.PauseButton);
                 currentPlayPauseTag = Resource.Drawable.PauseButton;
             }
             else
             {
-                btnPlayPause.SetBackgroundResource(Resource.Drawable.PlayButton);
+                btnPlayPause.SetImageResource(Resource.Drawable.PlayButton);
             }
         }
     }

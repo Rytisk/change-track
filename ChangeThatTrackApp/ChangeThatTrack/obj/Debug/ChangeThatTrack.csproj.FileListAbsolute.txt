@@ -185,5 +185,7 @@ E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawab
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\prevpressed.png
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\pausebutton.xml
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\prevbutton.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\roundbutton.xml
+E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\res\drawable\roundback.xml
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\obj\Debug\ChangeThatTrack.dll.mdb
 E:\Projects\change-track\ChangeThatTrackApp\ChangeThatTrack\bin\Debug\ChangeThatTrack.dll.mdb
