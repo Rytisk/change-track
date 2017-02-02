@@ -5,6 +5,7 @@ using System;
 using Android.InputMethodServices;
 using Android.Runtime;
 using Android.Views;
+using Android.Content;
 
 namespace ChangeThatTrack
 {
@@ -35,21 +36,30 @@ namespace ChangeThatTrack
 
         protected override void OnDestroy()
         {
+            Console.WriteLine("Closing app");
+            conHandler.Send(9);
             conHandler.CloseConnection();
             base.OnDestroy();
         }
+         
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            // Set our view from the "main" layout resource
+            
             SetContentView (Resource.Layout.Main);
+
             ipAddress = Intent.GetStringExtra("MyData") ?? "Data not available";
 
-            conHandler = new ConnectionHandler(ipAddress);
+            try {
+                conHandler = new ConnectionHandler(ipAddress);
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("FAIL");
+            }
             btnPlayPause = FindViewById<ImageButton>(Resource.Id.btnPlay);
-        //    btnStop = FindViewById<Button>(Resource.Id.btnStop);
+        //  btnStop = FindViewById<Button>(Resource.Id.btnStop);
             btnNext = FindViewById<ImageButton>(Resource.Id.btnNext);
             btnPrev = FindViewById<ImageButton>(Resource.Id.btnPrev);
             btnVolumeUp = FindViewById<ImageButton>(Resource.Id.btnVolumeUp);
@@ -69,7 +79,8 @@ namespace ChangeThatTrack
             
 
         }
-
+        
+        
         private void BtnVolumeUp_Click(object sender, EventArgs e)
         {
             conHandler.Send(VK_VOLUME_UP);
@@ -100,7 +111,6 @@ namespace ChangeThatTrack
         private void BtnPlay_Click(object sender, System.EventArgs e)
         {
             conHandler.Send(VK_MEDIA_PLAY_PAUSE);
-            
         }
 
         private void ChangePlayPauseImage(object sender, System.EventArgs e)
