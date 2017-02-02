@@ -72,6 +72,7 @@ namespace ChangeTrack_server
         public void Start()
         {
             IPAddress ipAd = IPAddress.Parse(GetLocalIP());
+
             myList = new TcpListener(ipAd, 8001);
             myList.Start();
 
