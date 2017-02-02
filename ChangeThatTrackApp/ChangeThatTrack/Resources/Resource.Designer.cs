@@ -28,6 +28,25 @@ namespace ChangeThatTrack
 		{
 		}
 		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int slide_right = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int slide_up = 2130968577;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -123,35 +142,50 @@ namespace ChangeThatTrack
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050003
-			public const int barVolume = 2131034115;
+			// aapt resource value: 0x7f070008
+			public const int barVolume = 2131165192;
 			
-			// aapt resource value: 0x7f050001
-			public const int btnEnterIP = 2131034113;
+			// aapt resource value: 0x7f070005
+			public const int btnAddToList = 2131165189;
 			
-			// aapt resource value: 0x7f050007
-			public const int btnNext = 2131034119;
+			// aapt resource value: 0x7f070004
+			public const int btnEnterIP = 2131165188;
 			
-			// aapt resource value: 0x7f050006
-			public const int btnPlay = 2131034118;
+			// aapt resource value: 0x7f07000c
+			public const int btnNext = 2131165196;
 			
-			// aapt resource value: 0x7f050005
-			public const int btnPrev = 2131034117;
+			// aapt resource value: 0x7f07000b
+			public const int btnPlay = 2131165195;
 			
-			// aapt resource value: 0x7f050009
-			public const int btnVolumeDown = 2131034121;
+			// aapt resource value: 0x7f07000a
+			public const int btnPrev = 2131165194;
 			
-			// aapt resource value: 0x7f050008
-			public const int btnVolumeUp = 2131034120;
+			// aapt resource value: 0x7f070002
+			public const int btnSaveIP = 2131165186;
 			
-			// aapt resource value: 0x7f050000
-			public const int editTxtIP = 2131034112;
+			// aapt resource value: 0x7f07000e
+			public const int btnVolumeDown = 2131165198;
 			
-			// aapt resource value: 0x7f050002
-			public const int imageView1 = 2131034114;
+			// aapt resource value: 0x7f07000d
+			public const int btnVolumeUp = 2131165197;
 			
-			// aapt resource value: 0x7f050004
-			public const int tablerow = 2131034116;
+			// aapt resource value: 0x7f070003
+			public const int editTxtIP = 2131165187;
+			
+			// aapt resource value: 0x7f070001
+			public const int editTxtIPToSave = 2131165185;
+			
+			// aapt resource value: 0x7f070000
+			public const int editTxtName = 2131165184;
+			
+			// aapt resource value: 0x7f070007
+			public const int imageView1 = 2131165191;
+			
+			// aapt resource value: 0x7f070006
+			public const int listViewIP = 2131165190;
+			
+			// aapt resource value: 0x7f070009
+			public const int tablerow = 2131165193;
 			
 			static Id()
 			{
@@ -167,10 +201,13 @@ namespace ChangeThatTrack
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int EnterIP = 2130903040;
+			public const int AddIPDialog = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int EnterIP = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{
@@ -185,11 +222,11 @@ namespace ChangeThatTrack
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
 			
 			static String()
 			{
@@ -197,6 +234,25 @@ namespace ChangeThatTrack
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060001
+			public const int ThemeWithActionBar = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int dialog_animation = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

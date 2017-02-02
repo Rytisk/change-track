@@ -36,9 +36,8 @@ namespace ChangeThatTrack
 
         protected override void OnDestroy()
         {
-            Console.WriteLine("Closing app");
-            conHandler.Send(9);
             conHandler.CloseConnection();
+            Console.WriteLine("Closing app");
             base.OnDestroy();
         }
          
