@@ -1,3 +1,7 @@
+ChangeThatTrack.DialogRegister, ChangeThatTrack;md5e585818f0e8a9fe2df2391016e6f4db5.DialogRegister
+ChangeThatTrack.DialogRegister, ChangeThatTrack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e585818f0e8a9fe2df2391016e6f4db5.DialogRegister
+ChangeThatTrack.DialogRegister;md5e585818f0e8a9fe2df2391016e6f4db5.DialogRegister
+changethattrack.DialogRegister;md5e585818f0e8a9fe2df2391016e6f4db5.DialogRegister
 ChangeThatTrack.EnterIPActivity, ChangeThatTrack;md5e585818f0e8a9fe2df2391016e6f4db5.EnterIPActivity
 ChangeThatTrack.EnterIPActivity, ChangeThatTrack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e585818f0e8a9fe2df2391016e6f4db5.EnterIPActivity
 ChangeThatTrack.EnterIPActivity;md5e585818f0e8a9fe2df2391016e6f4db5.EnterIPActivity
