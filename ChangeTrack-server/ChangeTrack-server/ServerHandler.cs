@@ -25,6 +25,9 @@ namespace ChangeTrack_server
 
         private static Socket s;
         private static TcpListener myList;
+        private static TcpListener check;
+
+        Thread t;
 
         CoreAudioDevice defaultPlaybackDevice;
 
@@ -75,7 +78,6 @@ namespace ChangeTrack_server
             while (true)
             {
                 RunTheServer();
-                OnProcessExit();
             }
         }
 
@@ -84,12 +86,16 @@ namespace ChangeTrack_server
         {
             try
             {
-                Console.WriteLine("The server is running at port 8001...");
-                Console.WriteLine("The local End point is  :" +
-                                  myList.LocalEndpoint);
-                Console.WriteLine("Waiting for a connection.....");
+                Console.WriteLine("The local End point is  :" + myList.LocalEndpoint);
+
                 s = myList.AcceptSocket();
-                WorkOnConnection();
+                Console.WriteLine("Client connected");
+                if (t != null)
+                {
+                    t.Abort();
+                }
+                t = new Thread(new ThreadStart(WorkOnConnection));
+                t.Start();
             }
             catch (Exception)
             {
@@ -109,15 +115,17 @@ namespace ChangeTrack_server
 
         private void WorkOnConnection()
         {
-            while (s.Connected)
+            while (s.IsConnected())
             {
-
-                Console.WriteLine("Connection accepted from " + s.RemoteEndPoint);
-
                 byte[] b = new byte[100];
                 int k = s.Receive(b);
                 int code = BitConverter.ToInt32(b, 0);
                 Console.WriteLine("Recieved... Code: " + code);
+                if(code == 9)
+                {
+                    Console.WriteLine("App closed");
+                    break;
+                }
                 if (IsAvailableCommand(code))
                 {
                     if (code == 174 || code == 175)
@@ -126,7 +134,8 @@ namespace ChangeTrack_server
                         CompleteCommand(code);
                 }
                 else
-                    Console.WriteLine("Command not available");
+                    Console.WriteLine("Command witch code: " + code + " not available");
+
                 if (code == 174 || code == 175)
                     SendAcknowledgement(GetVolume());
                 else
@@ -147,7 +156,6 @@ namespace ChangeTrack_server
         {
             ASCIIEncoding asen = new ASCIIEncoding();
             s.Send(asen.GetBytes(message));
-            Console.WriteLine("\nSent Acknowledgement");
         }
 
         private bool IsAvailableCommand(int code)
@@ -164,7 +172,6 @@ namespace ChangeTrack_server
         {
             keybd_event(Convert.ToByte(code), 0, KEYEVENTF_EXTENDEDKEY, 0);
             keybd_event(Convert.ToByte(code), 0, KEYEVENTF_KEYUP, 0);
-            Console.WriteLine("Command completed");
         }
 
         private void OnProcessExit()
